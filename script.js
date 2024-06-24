@@ -40,7 +40,7 @@ function hesapla() {
         (final2 * krediler.final2)
     ) / finalToplamKredi;
 
-    const yilSonuOrtalamasi = (komiteOrtalama * 0.6) + (finalOrtalama * 0.4);
+    const yilSonuOralamasi=(komiteOrtalama*0.6)+(finalOrtalama*0.4);
 
     document.getElementById('sonuc').innerText = `Yıl Sonu Ortalamanız: ${yilSonuOrtalamasi.toFixed(2)}`;
 }
